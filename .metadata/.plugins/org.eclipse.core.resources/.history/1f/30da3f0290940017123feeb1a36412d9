@@ -1,0 +1,49 @@
+package my.hadoopstudy.dfs;
+
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class Score {
+	public static class Map extends Mapper<LongWritable, Text, Text, IntWritable> {
+
+		@Override
+		protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, Text, IntWritable>.Context context)
+				throws IOException, InterruptedException {
+			// TODO Auto-generated method stub
+			String line=value.toString();
+			StringTokenizer token=new StringTokenizer(line,"\n");
+			while(token.hasMoreElements())
+			{
+				// 每行按空格划分
+
+                StringTokenizer tokenizerLine = new StringTokenizer(token.nextToken());
+
+ 
+
+                String strName = tokenizerLine.nextToken();// 学生姓名部分
+
+                String strScore = tokenizerLine.nextToken();// 成绩部分
+
+ 
+
+                Text name = new Text(strName);
+
+                int scoreInt = Integer.parseInt(strScore);
+
+                // 输出姓名和成绩
+
+                context.write(name, new IntWritable(scoreInt));
+				
+			}
+		}
+		
+	}
+	
+	
+	public static class Reducer extends org.apache.hadoop.mapreduce.Reducer<Text, IntWritable, Text, VALUEOUT>
+}

@@ -1,0 +1,7 @@
+package my.hadoopstudy.dfs;
+
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class PaiXu {
+	public static class PaiXuMap extends Mapper<Text, IntWritable, KEYOUT, VALUEOUT>
+}

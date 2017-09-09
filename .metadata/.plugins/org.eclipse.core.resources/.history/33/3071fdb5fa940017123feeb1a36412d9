@@ -1,0 +1,16 @@
+package cn.dug.StrExrtcise;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileReader;
+import java.io.InputStreamReader;
+
+public class StrIsNull {
+	public static void main(String[] args) {
+		File f=new File("./tem");
+		FileReader input=new FileReader(f);
+		BufferedReader br=new BufferedReader(input);
+
+	}
+}

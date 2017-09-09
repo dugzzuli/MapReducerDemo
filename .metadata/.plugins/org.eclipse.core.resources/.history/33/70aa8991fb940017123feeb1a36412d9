@@ -1,0 +1,26 @@
+package cn.dug.StrExrtcise;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.InputStreamReader;
+
+public class StrIsNull {
+	public static void main(String[] args) throws FileNotFoundException {
+		File f=new File("./tem");
+		if(!f.exists())
+		{
+			System.out.println("文件不存在");
+		}
+		FileReader input=new FileReader(f);
+		BufferedReader br=new BufferedReader(input);
+		String line="";
+		while(line=br.readLine())
+		{
+			
+		}
+
+	}
+}

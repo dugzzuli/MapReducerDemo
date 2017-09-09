@@ -1,0 +1,6 @@
+INDEX VERSION 1.130+/home/dug/work/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+3785758293.index
+2162483043.index
+3571948070.index
+1508075757.index
+3562761168.index

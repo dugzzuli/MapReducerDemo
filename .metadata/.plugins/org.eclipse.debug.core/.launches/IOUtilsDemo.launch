@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/MapReduceDemo/src/my/hadoopstudy/dfs/IOUtilsDemo.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="my.hadoopstudy.dfs.IOUtilsDemo"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="hdfs://localhost:9000/input/text.txt"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="MapReduceDemo"/>
+</launchConfiguration>

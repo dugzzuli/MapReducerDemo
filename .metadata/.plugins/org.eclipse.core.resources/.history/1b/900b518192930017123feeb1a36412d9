@@ -1,0 +1,7 @@
+package my.hadoopstudy.dfs;
+
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class WordDemo {
+ public static class WordDemoMap extends Mapper<KEYIN, VALUEIN, KEYOUT, VALUEOUT>
+}

@@ -1,0 +1,7 @@
+package cn.dug.StrExrtcise;
+
+public class StrIsNull {
+public static void main(String[] args) {
+	
+}
+}

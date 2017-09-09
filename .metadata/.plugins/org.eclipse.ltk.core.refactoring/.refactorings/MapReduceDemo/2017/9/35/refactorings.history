@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;MapReducerDug/src/my.hadoopstudy.dfs&apos;&#x0A;- Original project: &apos;MapReduceDemo&apos;&#x0A;- Destination element: &apos;MapReducerDug/src/my.hadoopstudy.dfs&apos;&#x0A;- Original elements:&#x0A;     my.hadoopstudy.dfs.IOUtilsDemo.java&#x0A;     my.hadoopstudy.dfs.Test.java&#x0A;     my.hadoopstudy.dfs.HDFSFileOperator.java&#x0A;     my.hadoopstudy.dfs.WordCount.java" description="Copy compilation units" destination="=MapReducerDug/src&lt;my.hadoopstudy.dfs" element1="/src&lt;my.hadoopstudy.dfs{IOUtilsDemo.java" element2="/src&lt;my.hadoopstudy.dfs{Test.java" element3="/src&lt;my.hadoopstudy.dfs{HDFSFileOperator.java" element4="/src&lt;my.hadoopstudy.dfs{WordCount.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1504243885712" units="4" version="1.0"/>
+</session>

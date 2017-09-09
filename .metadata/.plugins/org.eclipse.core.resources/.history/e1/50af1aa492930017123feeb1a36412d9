@@ -1,0 +1,11 @@
+package my.hadoopstudy.dfs;
+
+import org.apache.hadoop.fs.shell.Display.Text;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class WordDemo {
+	public static class WordDemoMap extends Mapper<Object, Text, Text, IntWritable> {
+
+	}
+}

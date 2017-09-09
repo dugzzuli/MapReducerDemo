@@ -1,0 +1,26 @@
+package my.hadoopstudy.dfs;
+
+import java.io.IOException;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class TempCalc {
+
+	public static class TempCalcMap extends Mapper<LongWritable, Text, Text, IntWritable> {
+
+		@Override
+		protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, Text, IntWritable>.Context context)
+				throws IOException, InterruptedException {
+			// TODO Auto-generated method stub
+			String line = value.toString();
+			if (line == (null) || line.equals("")) {
+				String tem=line.substring(line.length()-3, line.length()-1);
+				String year=line.substring(0,4);
+			}
+		}
+
+	}
+}

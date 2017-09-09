@@ -1,0 +1,5 @@
+package clustream;
+
+public class KMeans {
+
+}

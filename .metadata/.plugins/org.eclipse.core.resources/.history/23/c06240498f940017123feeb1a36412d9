@@ -1,0 +1,9 @@
+package my.hadoopstudy.dfs;
+
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class Score {
+	public static class Map extends Mapper<LongWritable, Text, Text, IntWritable> {
+
+	}
+}
